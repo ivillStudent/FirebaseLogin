@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>892116564750-oo9iv5glof2puuihasoehmub3u97mj0g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.892116564750-oo9iv5glof2puuihasoehmub3u97mj0g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5tb4lXLIexo4fh6OQZR_vh6MQEN7ntdk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>892116564750</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Dr.Horticulture</string>
+	<key>PROJECT_ID</key>
+	<string>dr-horticulture-799ae</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dr-horticulture-799ae.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:892116564750:ios:db7c2e52cbd26e4dcc755f</string>
+	<key>DATABASE_URL</key>
+	<string>https://dr-horticulture-799ae.firebaseio.com</string>
+</dict>
+</plist>
