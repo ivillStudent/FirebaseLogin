@@ -30,9 +30,8 @@ struct HowToUse: View {
                             Text("Detailed information of how to take pictures to maximize your result.")
                                 .foregroundColor(.secondary)
                                 .lineLimit(3)
-                            Button(action: {
-                                //
-                            }){
+                            NavigationLink(
+                                destination: LearnMoreView()){
                                 Text ("Learn more")
                                     .bold()
                                     .foregroundColor(.green)
