@@ -57,7 +57,7 @@ struct ContentView: View {
                         .frame(height: 100)
                     Spacer()
                 } else if self.viewRouter.currentView == "Home" {
-                    ImportView()
+                    FirstLoginView()
                 } else if self.viewRouter.currentView == "camera" {
                     ImportView()
                 } else if self.viewRouter.currentView == "import" {

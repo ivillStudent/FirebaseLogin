@@ -14,7 +14,19 @@ struct BazaarView: View {
         NavigationView{
             Form {
                 Section {
-                    Text("Bazaar Menu")
+                    VStack(alignment: .leading, spacing: 8){
+                        Text("Bazaar Coming Soon!!!")
+                            .font(.title)
+                            .foregroundColor(.green)
+                            Image("store")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(10)
+                                .padding(.bottom)
+                                
+                        
+                    }
+                        
                 }
             }
         
