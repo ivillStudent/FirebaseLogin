@@ -14,7 +14,7 @@ import Firebase
 struct HowToUse: View {
     
     var body: some View {
-        NavigationView{
+        
             ScrollView {
                 VStack{
                     Image("takingPic")
@@ -48,7 +48,7 @@ struct HowToUse: View {
             }
         }
     }
-}
+
 
 struct HowToUse_Previews: PreviewProvider {
     static var previews: some View {
