@@ -157,7 +157,7 @@ struct ImportView: View {
                 .padding()
                 
 
-                NavigationLink(destination: HowToUse()) {
+                NavigationLink(destination: LearnMoreView()) {
                     Text("How to use")
                         .frame(minWidth: 220, maxWidth: 220, minHeight: 60, maxHeight: 60, alignment: .center)
                         .foregroundColor(.white)

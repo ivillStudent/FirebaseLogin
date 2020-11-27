@@ -12,6 +12,21 @@ struct LearnMoreView: View {
     var body: some View {
         ScrollView {
             VStack {
+                Image("takingPic")
+                    .resizable()
+                    .aspectRatio(contentMode:.fit)
+                    .cornerRadius(10)
+                    .padding(.bottom)
+                HStack{
+                    VStack(alignment:.leading, spacing:8){
+                        Text("How to Use")
+                            .font(.title)
+                            .fontWeight(.black)
+                        Text("Here are instructions of how to take pictures to maximize your result.")
+                            .foregroundColor(.secondary)
+                            .lineLimit(3)
+                        }.padding()
+                }
                 Image("flower")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -19,7 +34,7 @@ struct LearnMoreView: View {
                     .padding(.bottom)
                 HStack {
                     VStack(alignment:.leading, spacing: 8)
-                        {
+                    {
                         Text("Avoid Flowers")
                             .font(.title)
                             .fontWeight(.black)
@@ -27,7 +42,9 @@ struct LearnMoreView: View {
                             .foregroundColor(.secondary)
                             .lineLimit(3)
                     }.padding()
+                    
                 }
+                
                 Image("fog")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -35,7 +52,7 @@ struct LearnMoreView: View {
                     .padding(.bottom)
                 HStack {
                     VStack(alignment:.leading, spacing: 8)
-                        {
+                    {
                         Text("Good Lighting")
                             .font(.title)
                             .fontWeight(.black)
@@ -44,6 +61,7 @@ struct LearnMoreView: View {
                             .lineLimit(3)
                     }.padding()
                 }
+                
                 Image("background")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -51,7 +69,7 @@ struct LearnMoreView: View {
                     .padding(.bottom)
                 HStack {
                     VStack(alignment:.leading, spacing: 8)
-                        {
+                    {
                         Text("Use a Clear, Plain Background")
                             .font(.title)
                             .fontWeight(.black)
@@ -67,7 +85,7 @@ struct LearnMoreView: View {
                     .padding(.bottom)
                 HStack {
                     VStack(alignment:.leading, spacing: 8)
-                        {
+                    {
                         Text("Focus on the Leaves")
                             .font(.title)
                             .fontWeight(.black)
@@ -75,7 +93,9 @@ struct LearnMoreView: View {
                             .foregroundColor(.secondary)
                             .lineLimit(3)
                     }.padding()
-                }            }
+                }
+                
+            }
         }
     }
 }
